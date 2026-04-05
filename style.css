@@ -1,0 +1,37 @@
+/* Background */
+body {
+    background-color: #0e1117;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #38bdf8;
+    text-align: center;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+    color: white;
+    border-radius: 8px;
+    height: 3em;
+    font-weight: bold;
+}
+
+/* Cards */
+.card {
+    background-color: #1f2937;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Table */
+.stDataFrame {
+    border-radius: 10px;
+}
